@@ -19,7 +19,7 @@ const apiKey = "Enter Your API key Here";
 - Dynamic and Responsive
 - also mobile friendly view is supported
 
-## Screenshots of Game
+## Screenshots of App
 
 <img src="./Screenshot/img1.png">
 <img src="./Screenshot/img2.png">
