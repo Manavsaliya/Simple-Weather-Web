@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow: hidden;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #90caf9, #64b5f6);
+  color: #262626;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30vmin;
+}
+.heading {
+  width: 100vw;
+  margin: 30px 0 10px 0;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
+  align-items: center;
+}
+.search {
+  margin: 20px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 30px 10px 60px;
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+.search #search-in {
+  padding: 15px 30px 15px 20px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  background-color: #e3f2fd;
+  color: #333333;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+::placeholder {
+  color: #333333;
+}
+
+.search button {
+  margin-left: 30px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #45a6f5;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.search button:hover {
+  cursor: pointer;
+}
+
+.errorDis {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.data-page {
+  display: flex;
+  height: 100%;
+  margin-left: 20px;
+}
+
+.data1 {
+  width: 50%;
+}
+
+.data2 {
+  width: 50%;
+}
+
+.city-name {
+  font-weight: bold;
+  padding: 2vmin 5vmin;
+  font-size: 7vmin;
+  font-weight: bold;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.temp {
+  padding: 2vmin 5vmin;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.feel-like {
+  padding: 2vmin 5vmin;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.humidity {
+  padding: 2vmin 5vmin;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.day-night {
+  padding: 3vmin 5vmin;
+  margin: 10px 0 0 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.desc {
+  padding: 3vmin 5vmin;
+  margin: 10px 0 0 0;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.emoji {
+  padding: 3vmin 2vmin;
+  font-size: 90px;
+  pointer-events: none;
+  user-select: none;
+}
+
+@media (width <= 566px) {
+  * {
+    margin: 0;
+  }
+  .container {
+    margin-left: 10px;
+  }
+  .search {
+    margin: 60px 0 30px 20px;
+    padding: 0;
+  }
+  .search #search-in {
+    padding: 15px 15px 15px 10px;
+    border-radius: 15px;
+    font-size: 17px;
+  }
+  .search button {
+    padding: 15px 20px;
+    margin-left: 10px;
+  }
+  .data-page {
+    display: block;
+    margin-left: 10px;
+  }
+  .data1 {
+    width: 100%;
+  }
+
+  .data2 {
+    width: 100%;
+    padding-left: 10px;
+  }
+  .city-name {
+    font-size: 35px;
+  }
+  .emoji {
+    padding-left: 0;
+  }
+  .day-night {
+    padding-left: 10px;
+  }
+  .desc {
+    padding-left: 10px;
+  }
+  .errorDis {
+    padding-left: 0;
+  }
+}

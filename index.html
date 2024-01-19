@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Web</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="heading">Weather Web</div>
+    <div class="search">
+      <input type="text" id="search-in" placeholder="Enter City Name" />
+      <button type="submit" class="submit" id="submit">Search</button>
+    </div>
+    <p class="errorDis"></p>
+    <div class="container">
+      <div class="data-page">
+        <div class="data1">
+          <div class="city-name"></div>
+          <div class="temp"></div>
+          <div class="feel-like"></div>
+          <div class="humidity"></div>
+        </div>
+        <div class="data2">
+          <div class="day-night"></div>
+          <div class="desc"></div>
+          <div class="emoji"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="weather.js"></script>
+  </body>
+</html>
