@@ -1,6 +1,6 @@
 # Weather Web
 
-Make Weather application using javascript
+Make Simple Weather application using javascript
 
 **How to Run:-**
 
